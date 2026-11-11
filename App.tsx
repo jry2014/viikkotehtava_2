@@ -21,7 +21,7 @@ export default function App() {
         visible={modalVisible}
       >
         <View style={styles.modalContainer}>
-          <Text style={styles.message}>This is modal...</Text>
+          <Text style={styles.message}>This is modal</Text>
           <Pressable
             accessibilityRole="button"
             accessibilityLabel="Close modal"
